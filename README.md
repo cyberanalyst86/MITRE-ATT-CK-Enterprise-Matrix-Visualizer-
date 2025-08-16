@@ -2,7 +2,7 @@
 
 2.) If error is encountered when installing the required dependencies, please use do the following: pip install beautifulsoup and pip install pandas.
 
-3.) Please read blog for how the program works - https://www.ishareinfo.com/post/alternative-mitre-att-ck-navigator-my-mitre-att-ck-visualizer-2-0
+3.) Please read blog for how the program works - https://www.ishareinfo.com/post/alternative-mitre-att-ck-navigator-my-mitre-att-ck-visualizer-2-0 or read the html file in the repository
 
 3.) The main program to run is Mitre_Attack_Enterprise_Matrix_Visualisation (Main).py which will call functions from the rest of the python files in the code repository.
 
