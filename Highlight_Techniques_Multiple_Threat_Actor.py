@@ -48,6 +48,8 @@ def Highlight_Techniques_Multiple_Threat_Actor(df_mitre):
 
     print_frequency_count(highlight_freqs)
 
+    get_technique_information(highlight_freqs)
+
     min_freq = min(highlight_freqs.values())
     max_freq = max(highlight_freqs.values())
 
@@ -86,4 +88,5 @@ def Highlight_Techniques_Multiple_Threat_Actor(df_mitre):
             cell.fill = gray_fill
 
     wb.save(output_file)
+
     print(f"Highlighted matrix saved to:\n{output_file}")
