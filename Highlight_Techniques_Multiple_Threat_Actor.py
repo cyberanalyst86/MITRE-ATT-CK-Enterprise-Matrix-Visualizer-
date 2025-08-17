@@ -5,6 +5,7 @@ import pandas as pd
 from openpyxl.styles import Border, Side, Alignment
 from collections import Counter
 from print_frequency_count import *
+from get_technique_information import *
 
 def risk_color(frequency, min_freq, max_freq):
     if max_freq == min_freq:
@@ -90,3 +91,4 @@ def Highlight_Techniques_Multiple_Threat_Actor(df_mitre):
     wb.save(output_file)
 
     print(f"Highlighted matrix saved to:\n{output_file}")
+
